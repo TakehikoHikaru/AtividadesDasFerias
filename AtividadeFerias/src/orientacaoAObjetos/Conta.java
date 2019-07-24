@@ -16,7 +16,7 @@ public class Conta {
 	
 	
 	public static void ZerarContador() {
-		System.out.println(qtdObjetos);
+		System.out.println("Quantidade de Objetos criados: "+qtdObjetos+"\n\n");
 		qtdObjetos = 0;
 	}
 	

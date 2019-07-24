@@ -9,7 +9,7 @@ public class TesteConta {
 		System.out.println("Quantidade de objetos criados: "+Conta.qtdObjetos);
 		Conta con01 = new Conta(1);
 		Conta con02 = new Conta(2);
-		System.out.println("Quantidade de objetos criados: "+Conta.qtdObjetos+"\n\n");
+		Conta.ZerarContador();
 		
 		//con01.codConta = 1;
 		con01.limite = 1000;
