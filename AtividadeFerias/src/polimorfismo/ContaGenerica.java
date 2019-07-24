@@ -1,5 +1,5 @@
 package polimorfismo;
 
-public class ContaGenerica {
+public abstract class ContaGenerica {
  //Vou Usar esta
 }
