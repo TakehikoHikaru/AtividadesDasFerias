@@ -7,7 +7,7 @@ public abstract class FuncionarioGenerio {
 	
 	
 	
-	
+	public abstract void Bonificacao();
 	
 	
 	public String getNome() {
