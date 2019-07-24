@@ -24,12 +24,19 @@ public class ImprimeValorArray {
 	
 	public static void main(String[] args) {
 		
-		int[] Num =  new int[20];
 		
-		PreencheArray(Num);
-		Arrays.sort(Num);
-		ImprimeArray(Num);
+		double media = 0;
+		int[] num =  new int[20];
 		
+		PreencheArray(num);
+		Arrays.sort(num);
+		ImprimeArray(num);
+		
+		for(int i = 0;i<num.length;i++) {
+			media += num[i];
+		}
+		media /= num.length;
+		System.out.println("A media é: "+ media+"\n");
 		
 	}
 
