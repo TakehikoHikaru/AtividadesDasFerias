@@ -5,5 +5,6 @@ public class Conta {
 	public int CodConta;
 	public double saldo;
 	public double limite = 100;
+	public Agencia agencia;
 	
 }
