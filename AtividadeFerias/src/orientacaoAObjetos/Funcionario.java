@@ -8,6 +8,9 @@ public class Funcionario {
 	private double salarioFuncionario = 1000;
 	private double valeRefeicao;
 	double Bonificacao = 10;
+	String entrada;
+	String saida;
+	
 	
 	public void AumentoSalario(double valor) {
 		salarioFuncionario += valor;
@@ -18,6 +21,13 @@ public class Funcionario {
 	}
 	
 
+	public void RegistraEntrada(String entrada) {
+		this.entrada = entrada;
+	}
+	
+	public void RegistraSaida(String saida) {
+		this.saida = saida;
+	}
 	
 	
 	public void AjustaTaxaValeRefeicao(double taxa) {

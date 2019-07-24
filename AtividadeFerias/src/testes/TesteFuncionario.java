@@ -27,7 +27,12 @@ public class TesteFuncionario {
 		fun02.AjustaTaxaValeRefeicao(10);
 		System.out.println(fun02.getValeRefeicao());
 		
+
+		fun01.RegistraEntrada("11/02/2011");
+		fun01.RegistraSaida("11/02/2012");
 		
+		fun02.RegistraEntrada("12/02/2011");
+		fun02.RegistraSaida("15/12/2011");
 		
 		
 		
