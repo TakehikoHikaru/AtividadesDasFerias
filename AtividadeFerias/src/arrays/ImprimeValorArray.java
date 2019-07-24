@@ -1,6 +1,9 @@
 package arrays;
 
+import java.util.Arrays;
 import java.util.Random;
+
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class ImprimeValorArray {
 
@@ -24,6 +27,7 @@ public class ImprimeValorArray {
 		int[] Num =  new int[20];
 		
 		PreencheArray(Num);
+		Arrays.sort(Num);
 		ImprimeArray(Num);
 		
 		
