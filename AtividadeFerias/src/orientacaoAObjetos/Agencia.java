@@ -5,7 +5,7 @@ public class Agencia {
 	public int CodAgencia;
 	
 	
-	Agencia(int cod){
+	public Agencia(int cod){
 		this.CodAgencia = cod;
 	}
 	
