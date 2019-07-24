@@ -7,7 +7,8 @@ public class Funcionario {
 	private String nomeFuncionario;
 	private double salarioFuncionario = 1000;
 	private double valeRefeicao;
-
+	double Bonificacao = 10;
+	
 	public void AumentoSalario(double valor) {
 		salarioFuncionario += valor;
 	}
@@ -22,6 +23,14 @@ public class Funcionario {
 	public void AjustaTaxaValeRefeicao(double taxa) {
 		valeRefeicao += ((valeRefeicao/100)*taxa);
 	}
+	
+	
+	public void BonificacaoSalario() {
+		this.salarioFuncionario += ((this.salarioFuncionario/100)*this.Bonificacao);
+	}
+	
+	
+	
 	
 	public String getNomeFuncionario() {
 		return nomeFuncionario;
