@@ -6,11 +6,11 @@ public class TesteCartaoDeCredito {
 
 	public static void main(String[] args) {
 	
-		CartaoDeCredito Card01 = new CartaoDeCredito();
-		CartaoDeCredito Card02 = new CartaoDeCredito();
+		CartaoDeCredito Card01 = new CartaoDeCredito(1);
+		CartaoDeCredito Card02 = new CartaoDeCredito(2);
 		
-		Card01.codCartao = 0001;
-		Card02.codCartao = 0002;
+		//Card01.codCartao = 0001;
+		//Card02.codCartao = 0002;
 		
 		Card01.dataVali = "11/11/11";
 		Card02.dataVali = "22/22/22";
