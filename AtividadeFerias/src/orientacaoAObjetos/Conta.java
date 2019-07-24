@@ -6,10 +6,11 @@ public class Conta {
 	public double saldo;
 	public double limite = 100;
 	public Agencia agencia;
-	
+	public static int qtdObjetos;
 	
 	public Conta(int cod) {
 		codConta = cod;
+		qtdObjetos++;
 	}
 	
 	
