@@ -2,6 +2,6 @@ package orientacaoAObjetos;
 
 public class Cliente {
 
-	String nomeCliente;
-	int codCliente;
+	public String nomeCliente;
+	public int codCliente;
 }
