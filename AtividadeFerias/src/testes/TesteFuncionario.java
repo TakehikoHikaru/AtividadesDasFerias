@@ -11,9 +11,12 @@ public class TesteFuncionario {
 		
 		fun01.nomeFuncionario = "Funcionario01";
 		fun01.salarioFuncionario = 1111.1;
+		fun01.valeRefeicao = 300;
 		
 		fun02.nomeFuncionario = "Funcionario02";
 		fun02.salarioFuncionario = 2222.2;
+		fun02.valeRefeicao = 500;
+		
 		
 		fun02.AumentoSalario(4444.4);
 		

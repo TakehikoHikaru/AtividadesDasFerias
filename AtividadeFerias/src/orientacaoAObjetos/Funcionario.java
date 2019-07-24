@@ -11,7 +11,7 @@ public class Funcionario {
 	}
 	
 	public void ConsultaDados() {
-		System.out.printf("Nome: %s \nSalario: %f\n",this.nomeFuncionario,this.salarioFuncionario);
+		System.out.printf("Nome: %s \nSalario: %f\nVale Refeicão: %f\n",this.nomeFuncionario,this.salarioFuncionario,this.valeRefeicao);
 	}
 	
 
