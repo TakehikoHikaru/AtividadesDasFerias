@@ -9,14 +9,14 @@ public class TesteFuncionario {
 		Funcionario fun01 = new Funcionario();
 		Funcionario fun02 = new Funcionario();
 		
-		fun01.nomeFuncionario = "Funcionario01";
-		fun01.salarioFuncionario = 1111.1;
-		fun01.valeRefeicao = 300;
+
+		fun01.setNomeFuncionario("alano");
+		fun01.setSalarioFuncionario(3333);
+		fun01.setValeRefeicao(300);
 		
-		fun02.nomeFuncionario = "Funcionario02";
-		fun02.salarioFuncionario = 2222.2;
-		fun02.valeRefeicao = 500;
-		
+		fun02.setNomeFuncionario("aline");
+		fun02.setSalarioFuncionario(1000);
+		fun02.setValeRefeicao(400);
 		
 		fun02.AumentoSalario(4444.4);
 		
@@ -24,7 +24,7 @@ public class TesteFuncionario {
 		fun02.ConsultaDados();
 		
 		fun02.AjustaTaxaValeRefeicao(10);
-		System.out.println(fun02.valeRefeicao);
+		System.out.println(fun02.getValeRefeicao());
 		
 		
 		
