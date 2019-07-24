@@ -15,6 +15,10 @@ public class Conta {
 	}
 	
 	
+	public static void ZerarContador() {
+		System.out.println(qtdObjetos);
+		qtdObjetos = 0;
+	}
 	
 	public static void TraferenciaEntreContas(int Valor,Conta ContaQueDa,Conta ContaQueRecebe) {
 		ContaQueDa.saldo -= Valor;
