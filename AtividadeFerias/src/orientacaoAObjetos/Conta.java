@@ -10,6 +10,7 @@ public class Conta {
 	
 	public Conta(int cod) {
 		codConta = cod;
+		//Já tinha feito
 		qtdObjetos++;
 	}
 	
