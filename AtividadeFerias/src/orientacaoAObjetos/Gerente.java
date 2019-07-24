@@ -1,20 +1,17 @@
 package orientacaoAObjetos;
 
-public class Gerente {
-
-	String nome;
-	public double salario;
+public class Gerente extends Funcionario{
 	
-	
+	String nomeUsuario;
+	String senha;
 	
 	public void AumentoSalario() {
-		
-		this.salario += (this.salario/100)*10;
+		setSalarioFuncionario(getSalarioFuncionario() + (getSalarioFuncionario()/100)*10) ;
 	}
 
 	
 	public void AumentoSalario(int taxa) {
-		this.salario += (this.salario/100)*taxa;
+		setSalarioFuncionario(getSalarioFuncionario() + (getSalarioFuncionario()/100)*taxa) ;
 	}
 	
 	
