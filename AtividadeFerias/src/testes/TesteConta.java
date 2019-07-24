@@ -6,14 +6,14 @@ public class TesteConta {
 
 	public static void main(String[] args) {
 		
-		Conta con01 = new Conta();
-		Conta con02 = new Conta();
+		Conta con01 = new Conta(1);
+		Conta con02 = new Conta(2);
 
-		con01.codConta = 1;
+		//con01.codConta = 1;
 		con01.limite = 1000;
 		con01.saldo = 500;
 		
-		con02.codConta = 2;
+		//con02.codConta = 2;
 		con02.limite = 2000;
 		con02.saldo = 100;
 		
