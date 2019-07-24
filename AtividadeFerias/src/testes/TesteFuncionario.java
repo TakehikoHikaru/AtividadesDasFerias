@@ -23,8 +23,8 @@ public class TesteFuncionario {
 		fun01.ConsultaDados();
 		fun02.ConsultaDados();
 		
-		
-		
+		fun02.AjustaTaxaValeRefeicao(10);
+		System.out.println(fun02.valeRefeicao);
 		
 		
 		
