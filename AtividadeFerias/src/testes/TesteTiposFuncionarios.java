@@ -12,6 +12,14 @@ public class TesteTiposFuncionarios {
 		Gerente gere = new Gerente();
 		Telefonista tele = new Telefonista();
 
+	
+	secre.setSalarioFuncionario(1000);
+	gere.setSalarioFuncionario(1000);
+	secre.BonificacaoSalario();
+	gere.BonificacaoSalario();
+	secre.ConsultaDados();
+	gere.ConsultaDados();
+	
+	
 	}
-
 }

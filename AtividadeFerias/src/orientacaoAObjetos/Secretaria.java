@@ -1,6 +1,6 @@
 package orientacaoAObjetos;
 
-public class Secretaria {
+public class Secretaria extends Funcionario{
 
 	int numRamal;
 	

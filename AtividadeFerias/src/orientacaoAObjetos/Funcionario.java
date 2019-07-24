@@ -44,7 +44,7 @@ public class Funcionario {
 		return salarioFuncionario;
 	}
 
-	public void setSalarioFuncionario(double salarioFuncionario) {
+	public  void setSalarioFuncionario(double salarioFuncionario) {
 		this.salarioFuncionario = salarioFuncionario;
 	}
 
