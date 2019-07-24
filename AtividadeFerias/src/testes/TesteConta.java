@@ -21,6 +21,7 @@ public class TesteConta {
 		
 		System.out.printf("Codigo: %d\nSaldo: %f\nLimite: %f\n",con01.codConta,con01.saldo,con01.limite);
 		System.out.printf("\nCodigo: %d\nSaldo: %f\nLimite: %f\n",con02.codConta,con02.saldo,con02.limite);
+		//Já tinha feito
 
 		/*con02.Deposito(100);
 
