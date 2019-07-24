@@ -6,4 +6,10 @@ public class CartaoDeCredito {
 	public String dataVali;
 	public Cliente cliente;
 	
+	
+	public CartaoDeCredito(int cod) {
+		this.codCartao = cod;
+	}
+	
+	
 }
