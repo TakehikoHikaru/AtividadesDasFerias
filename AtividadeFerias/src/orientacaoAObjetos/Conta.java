@@ -14,6 +14,12 @@ public class Conta {
 	
 	
 	
+	public void TraferenciaEntreContas(int Valor,Conta ContaQueDa,Conta ContaQueRecebe) {
+		ContaQueDa.saldo -= Valor;
+		ContaQueRecebe.saldo += Valor;
+	}
+	
+	
 	public void Saque(double valor) {
 		this.saldo -= valor;
 	}
