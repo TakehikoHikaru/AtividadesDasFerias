@@ -3,7 +3,6 @@ package arrays;
 import java.util.Arrays;
 import java.util.Random;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class ImprimeValorArray {
 
@@ -24,7 +23,7 @@ public class ImprimeValorArray {
 	
 	public static void main(String[] args) {
 		
-		
+		int maior = -999999999;
 		double media = 0;
 		int[] num =  new int[20];
 		
@@ -37,6 +36,14 @@ public class ImprimeValorArray {
 		}
 		media /= num.length;
 		System.out.println("A media é: "+ media+"\n");
+		
+		
+		for(int i = 0;i<num.length;i++) {
+			if(maior<num[i]) {
+				maior = num[i];
+			}
+		}
+		System.out.println("O maior numero é: "+maior+"\n");
 		
 	}
 
