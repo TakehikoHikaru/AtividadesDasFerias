@@ -2,10 +2,16 @@ package orientacaoAObjetos;
 
 public class Conta {
 
-	public int CodConta;
+	public int codConta;
 	public double saldo;
 	public double limite = 100;
 	public Agencia agencia;
+	
+	
+	public Conta(int cod) {
+		codConta = cod;
+	}
+	
 	
 	
 	public void Saque(double valor) {
