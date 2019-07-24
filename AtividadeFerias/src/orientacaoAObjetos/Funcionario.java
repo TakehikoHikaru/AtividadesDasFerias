@@ -2,9 +2,9 @@ package orientacaoAObjetos;
 
 public class Funcionario {
 
-	public String nomeFuncionario;
-	public double salarioFuncionario = 1000;
-	public double valeRefeicao;
+	private String nomeFuncionario;
+	private double salarioFuncionario = 1000;
+	private double valeRefeicao;
 
 	public void AumentoSalario(double valor) {
 		salarioFuncionario += valor;
