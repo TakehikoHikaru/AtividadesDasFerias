@@ -4,6 +4,7 @@ public class Funcionario {
 
 	public String nomeFuncionario;
 	public double salarioFuncionario = 1000;
+	public double valeRefeicao;
 
 	public void AumentoSalario(double valor) {
 		salarioFuncionario += valor;
