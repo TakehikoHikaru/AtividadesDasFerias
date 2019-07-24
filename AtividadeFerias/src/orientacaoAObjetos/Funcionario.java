@@ -3,7 +3,7 @@ package orientacaoAObjetos;
 public class Funcionario {
 
 	public String nomeFuncionario;
-	public double salarioFuncionario;
+	public double salarioFuncionario = 1000;
 
 	public void AumentoSalario(double valor) {
 		salarioFuncionario += valor;
