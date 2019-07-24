@@ -1,6 +1,6 @@
 package classesAbstratas;
 
-public class FuncionarioGenerio {
+public abstract class FuncionarioGenerio {
 
 	private String nome;
 	private double salario;
