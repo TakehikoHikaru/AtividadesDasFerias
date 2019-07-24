@@ -20,6 +20,14 @@ public class TesteConta {
 		System.out.printf("Codigo: %d\nSaldo: %f\nLimite: %f\n",con01.CodConta,con01.saldo,con01.limite);
 		System.out.printf("\nCodigo: %d\nSaldo: %f\nLimite: %f\n",con02.CodConta,con02.saldo,con02.limite);
 
+		con02.Deposito(100);
+
+		System.out.printf("\nCodigo: %d\nSaldo: %f\nLimite: %f\n",con02.CodConta,con02.saldo,con02.limite);
+
+		con02.Saque(100);
+
+		System.out.printf("\nCodigo: %d\nSaldo: %f\nLimite: %f\n",con02.CodConta,con02.saldo,con02.limite);
+
 	}
 
 }
