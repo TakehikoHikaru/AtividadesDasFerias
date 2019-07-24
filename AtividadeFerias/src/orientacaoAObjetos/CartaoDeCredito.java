@@ -2,7 +2,7 @@ package orientacaoAObjetos;
 
 public class CartaoDeCredito {
 
-	int codCartao;
-	String dataVali;
+	public int codCartao;
+	public String dataVali;
 	
 }
