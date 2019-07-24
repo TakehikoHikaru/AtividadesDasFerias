@@ -9,6 +9,8 @@ public class TesteContaAbstrata {
 		
 		ContaGenerica con1 = new ContaPoupanca();
 
+		con1.GerarExtratoDetalhado();
+		
 	}
 
 }
