@@ -15,8 +15,20 @@ public class TesteFuncionario {
 		fun02.nomeFuncionario = "Funcionario02";
 		fun02.salarioFuncionario = 2222.2;
 		
-		System.out.printf("Nome: %s\nSalario: %f\n",fun01.nomeFuncionario,fun01.salarioFuncionario);
-		System.out.printf("\nNome: %s\nSalario: %f\n",fun02.nomeFuncionario,fun02.salarioFuncionario);
+		fun02.AumentoSalario(4444.4);
+		
+		fun01.ConsultaDados();
+		fun02.ConsultaDados();
+		
+		
+		
+		
+		
+		
+		
+		
+		//System.out.printf("Nome: %s\nSalario: %f\n",fun01.nomeFuncionario,fun01.salarioFuncionario);
+		//System.out.printf("\nNome: %s\nSalario: %f\n",fun02.nomeFuncionario,fun02.salarioFuncionario);
 		
 		
 	}
