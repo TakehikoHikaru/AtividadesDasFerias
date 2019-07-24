@@ -12,7 +12,7 @@ public class Gerente extends Funcionario{
 	}
 	
 	public void ConsultaDados() {
-		System.out.printf("Nome: %s \nSalario: %f\nVale Refeicão: %f\nBonificação: %f\n",getNomeFuncionario(),getSalarioFuncionario(),getValeRefeicao(),this.Bonificacao);
+		System.out.printf("Nome: %s \nSalario: %f\nVale Refeicão: %f\nBonificação: %f\nNome de Usaario: %s\nSenha: %s\n",getNomeFuncionario(),getSalarioFuncionario(),getValeRefeicao(),this.Bonificacao,this.nomeUsuario,this.senha);
 	}
 	
 	
