@@ -10,6 +10,7 @@ public class TesteFuncionarioGenerico {
 		
 		FuncionarioGenerio fun01 = new GerenteDeBanco();
 
+		fun01.Bonificacao();
 	}
 
 }
